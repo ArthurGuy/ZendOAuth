@@ -121,10 +121,10 @@ class AccessToken extends HTTPClient
      * @param  string $url
      * @return Zend\Http\Client
      */
-    public function getRequestSchemeQueryStringClient(array $params, $url)
+    public function getRequestSchemeQueryStringClient(array $params)
     {
         $params = $this->_cleanParamsOfIllegalCustomParameters($params);
-        return parent::getRequestSchemeQueryStringClient($params, $url);
+        return parent::getRequestSchemeQueryStringClient($params, $this->_consumer->getAccessTokenUrl());
     }
 
     /**
