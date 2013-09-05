@@ -25,7 +25,7 @@
         "zendframework/zend-config": ">=2.0.0rc4",
         "zendframework/zend-crypt": ">=2.0.0rc4",
         "zendframework/zend-loader": ">=2.0.0rc4",
-        "zendframework/zend-http": ">=2.0.0rc4",
+        "zendframework/zend-http": "2.2.4",
         "zendframework/zend-i18n": ">=2.0.0rc4",
         "zendframework/zend-math": ">=2.0.0rc4",
         "zendframework/zend-stdlib": ">=2.0.0rc4",
